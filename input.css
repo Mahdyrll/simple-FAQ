@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'medium';
+        src: url('./static/Inter_18pt-Medium.ttf');
+    }
+
+    @font-face {
+        font-family: 'regular';
+        src: url('./static/Inter_18pt-Regular.ttf');
+    }
+
+    @font-face {
+        font-family: 'semibold';
+        src: url('./static/Inter_18pt-SemiBold.ttf');
+    }
+}
